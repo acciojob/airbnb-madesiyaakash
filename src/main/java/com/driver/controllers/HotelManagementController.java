@@ -39,7 +39,7 @@ public class HotelManagementController {
         //You need to add a User Object to the database
         //Assume that user will always be a valid user and return the aadharCardNo of the user
 
-       return null;
+        return null;
     }
 
     @GetMapping("/get-hotel-with-most-facilities")
@@ -59,16 +59,16 @@ public class HotelManagementController {
         //Have bookingId as a random UUID generated String
         //save the booking Entity and keep the bookingId as a primary key
         //Calculate the total amount paid by the person based on no. of rooms booked and price of the room per night.
-        //If there arent enough rooms available in the hotel that we are trying to book return -1 
-        //in other case return total amount paid 
-        
+        //If there arent enough rooms available in the hotel that we are trying to book return -1
+        //in other case return total amount paid
+
         return 0;
     }
-    
+
     @GetMapping("/get-bookings-by-a-person/{aadharCard}")
     public int getBookings(@PathVariable("aadharCard")Integer aadharCard)
     {
-        //In this function return the bookings done by a person 
+        //In this function return the bookings done by a person
         return 0;
     }
 
